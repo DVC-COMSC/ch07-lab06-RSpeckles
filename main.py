@@ -11,3 +11,9 @@ for i in range(len(numbers1)):
 # ******************************
 # Make your Code
 # ******************************
+numbers2 = []
+for i in range(len(numbers1), 0, -1):
+	numbers2.append(numbers1[i-1])
+
+print(numbers1)
+print(numbers2)
